@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Temperamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="lugarlogo">
+            <h1>Teste de Temperamento</h1>
+            <img src="1.png" alt="" id="logo">
+        </div>
+        <div id="instructions" class="hidden">
+            <p id="RL">Por Ruth Gomes e Luíz Gomes</p>
+                <h2>Instruções</h2>
+                <h4>Leia atentamente as questões e responda conforme o que melhor descreve seu comportamento. </h4>
+                <p>
+                    <ul>
+                        <li>Este teste consiste em duas partes: a primeira para determinar se o Temperamento é quente ou frio; a segunda para determinar úmido ou seco. A combinação dessas características resulta em seu temperamento.</li> <br>
+                        <li>Não existe temperamento melhor ou pior, portanto, evite manipular suas respostas para obter um resultado específico.</li> <br>
+                        <li>Lembre-se de que o temperamento não requer esforço, é o que é natural para você, aquilo que está no fundo, longe de todos os filtros que usamos para viver em sociedade.</li> <br>
+                        <li>Você deve marcar entre "A e B"</li>
+                    </ul>
+               
+            </p>
+            <button id="start-part1">Iniciar Primeira Parte</button>
+        </div>
+ 
+        <div id="part1" class="hidden">
+            <h2>Primeira Parte - 19 Questões</h2>
+            <div id="questions-part1">
+                <!-- Repita para todas as 19 questões -->
+                <div id="container">
+                    <h4>Questão 1: </h4>
+                    <b>A</b><label><input type="radio" name="q1" value="A"></label> Quando você está em um ambiente novo, você tende a explorá-lo completamente. <br> <br>
+                    <b>B</b><label><input type="radio" name="q1" value="B"></label> Tende a ser receoso em novos ambientes. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 2: </h4>
+                    <b>A</b><label><input type="radio" name="q2" value="A"></label> Quando alguém lhe ofende de forma inesperada, você já tem uma resposta. <br> <br>
+                    <b>B</b><label><input type="radio" name="q2" value="B"></label> Não reage rapidamente às ofensas inesperadas. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 3: </h4>
+                    <b>A</b><label><input type="radio" name="q3" value="A"></label> Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”. <br> <br>
+                    <b>B</b><label><input type="radio" name="q3" value="B"></label> Não consegue elaborar uma opinião sem se sentir muito seguro antes. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 4: </h4>
+                    <b>A</b><label><input type="radio" name="q4" value="A"></label> Para você, a comunicação e a oportunidade de se posicionar são imprescindíveis. <br> <br>
+                    <b>B</b><label><input type="radio" name="q4" value="B"></label> Você suporta por um bom tempo quando não pode se posicionar. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 5: </h4>
+                    <b>A</b><label><input type="radio" name="q5" value="A"></label> É muito fácil tomar uma atitude em ações em grupo. <br> <br>
+                    <b>B</b><label><input type="radio" name="q5" value="B"></label> Possui dificuldades em tomar decisões em meio a um grupo. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 6: </h4>
+                    <b>A</b><label><input type="radio" name="q6" value="A"></label> Você é o primeiro a se manifestar em dinâmicas de grupo. <br> <br>
+                    <b>B</b><label><input type="radio" name="q6" value="B"></label> Você espera que outro dê o primeiro passo em dinâmicas de grupo. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 7: </h4>
+                    <b>A</b><label><input type="radio" name="q7" value="A"></label> Você se sente desconfortável vivendo apenas o óbvio e o previsível. <br> <br>
+                    <b>B</b><label><input type="radio" name="q7" value="B"></label> Para você, uma vida previsível e estável é mais confortável. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 8: </h4>
+                    <b>A</b><label><input type="radio" name="q8" value="A"></label> Você possui um tom de voz elevado. <br> <br>
+                    <b>B</b><label><input type="radio" name="q8" value="B"></label> Seu tom de voz é mais manso/vacilante/baixo. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 9: </h4>
+                    <b>A</b><label><input type="radio" name="q9" value="A"></label> Você precisa se expressar constantemente. <br> <br>
+                    <b>B</b><label><input type="radio" name="q9" value="B"></label> Se expressar constantemente lhe cansa muito. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 10: </h4>
+                    <b>A</b><label><input type="radio" name="q10" value="A"></label> É muito difícil guardar para si quando não gosta de algo; logo fala. <br> <br>
+                    <b>B</b><label><input type="radio" name="q10" value="B"></label> Não tem certeza de como se expressar de imediato se não gostar de algo. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 11: </h4>
+                    <b>A</b><label><input type="radio" name="q11" value="A"></label> Não tem problema nenhum em ter assunto com as pessoas. <br> <br>
+                    <b>B</b><label><input type="radio" name="q11" value="B"></label> Tem dificuldade em ter assunto com as pessoas. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 12: </h4>
+                    <b>A</b><label><input type="radio" name="q12" value="A"></label> É considerado uma pessoa agitada. <br> <br>
+                    <b>B</b><label><input type="radio" name="q12" value="B"></label> Te veem como calmo ou lento. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 13: </h4>
+                    <b>A</b><label><input type="radio" name="q13" value="A"></label> Quer resolver tudo para ontem e agita os que o cercam com sua agitação. <br> <br>
+                    <b>B</b><label><input type="radio" name="q13" value="B"></label> Tem paciência para resolver ou, se está ansioso, não agita os outros. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 14: </h4>
+                    <b>A</b><label><input type="radio" name="q14" value="A"></label> Sente que faz muito esforço para não ser precipitado. <br> <br>
+                    <b>B</b><label><input type="radio" name="q14" value="B"></label> Sente que faz muito esforço para tomar decisões mais rápidas, pensando menos. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 15: </h4>
+                    <b>A</b><label><input type="radio" name="q15" value="A"></label> Tende a tirar conclusões rápidas sem pensar muito. <br> <br>
+                    <b>B</b><label><input type="radio" name="q15" value="B"></label> Tende a pensar demais para enfim chegar a uma conclusão. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 16: </h4>
+                    <b>A</b><label><input type="radio" name="q16" value="A"></label> Sua presença não passa despercebida. <br> <br>
+                    <b>B</b><label><input type="radio" name="q16" value="B"></label> Sua presença é naturalmente mais contida. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 17: </h4>
+                    <b>A</b><label><input type="radio" name="q17" value="A"></label> Por você, a vida seria aventura constante e imprevisível. <br> <br>
+                    <b>B</b><label><input type="radio" name="q17" value="B"></label> Por você, a vida seria previsível e totalmente segura sem desafios ou mudanças repentinas. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 18: </h4>
+                    <b>A</b><label><input type="radio" name="q18" value="A"></label> Você tem muita facilidade em lidar com coisas, pessoas e situações. <br> <br>
+                    <b>B</b><label><input type="radio" name="q18" value="B"></label> Você se sente mais confortável dentro de si, com seus pensamentos e emoções. <br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 19: </h4>
+                    <b>A</b><label><input type="radio" name="q19" value="A"></label> Novidades e desafios constantes renovam seu ânimo. <br> <br>
+                    <b>B</b><label><input type="radio" name="q19" value="B"> </label> Novidades e desafios constantes lhe deixam ansioso ou cansado. <br>  
+                </div>               
+                <br>
+                       
+                <!-- ...continue para as 19 questões... -->
+            </div>
+            <button id="submit-part1">Enviar Respostas da Primeira Parte</button>
+        </div>
+ 
+        <div id="part2" class="hidden">
+            <h2>Segunda Parte - 13 Questões</h2>
+            <div id="questions-part2">
+                <!-- Repita para todas as 13 questões -->
+                <div id="container">
+                    <h4>Questão 1: </h4>
+                    <b>A</b><label><input type="radio" name="q20" value="A"> </label> Você tem uma visão muito flexível sobre a vida. <br> <br>
+                    <b>B</b><label><input type="radio" name="q20" value="B"> </label> Para você, a vida tem certos e errados muito marcados. <br>
+                </div>
+                <br>
+               
+                <div id="container">
+                    <h4>Questão 2:</h4>
+                    <b>A</b><label><input type="radio" name="q21" value="A"></label> Você se adapta com muita facilidade a novas coisas, pessoas e situações.<br> <br>
+                    <b>B</b><label><input type="radio" name="q21" value="B"></label> Você possui certa dificuldade com novidades e mudanças.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 3:</h4>
+                    <b>A</b><label><input type="radio" name="q22" value="A"></label> Você se relaciona facilmente com todos os tipos de pessoas, inclusive as que são muito diferentes de você, sem esforço algum.<br> <br>
+                    <b>B</b><label><input type="radio" name="q22" value="B"></label> Os relacionamentos costumam ser mais forçosos e espinhosos com pessoas que não pensam igual a você em assuntos que lhe são muito importantes.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 4:</h4>
+                    <b>A</b><label><input type="radio" name="q23" value="A"></label> As emoções lhe são muito fortes no momento dos acontecimentos, porém, não duram muito.<br>
+                    <b>B</b><label><input type="radio" name="q23" value="B"></label> As emoções lhe afetam por um período prolongado, precisa se esforçar para superar.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 5:</h4>
+                    <b>A</b><label><input type="radio" name="q24" value="A"></label> Quando se lembra de coisas do passado, pode ou não se lembrar com detalhes, mas não sente nada. A lembrança é só uma lembrança.<br> <br>
+                    <b>B</b><label><input type="radio" name="q24" value="B"></label> Quando se lembra de coisas do passado, a emoção é revivida intensamente, parece que aconteceu ontem ou que ainda está acontecendo.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 6:</h4>
+                    <b>A</b><label><input type="radio" name="q25" value="A"></label> Quando toma uma decisão, leva muito em conta como aquilo vai afetar seu emocional e o emocional das outras pessoas, você prioriza a harmonia.<br> <br>
+                    <b>B</b><label><input type="radio" name="q25" value="B"></label> Para você, uma decisão deve ser tomada com base na verdade, não importando o que você ou os outros vão sentir.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 7:</h4>
+                    <b>A</b><label><input type="radio" name="q26" value="A"></label> Você naturalmente consegue flexibilizar suas decisões.<br> <br>
+                    <b>B</b><label><input type="radio" name="q26" value="B"></label> Você é teimoso em suas decisões, sofre ao precisar flexibilizar.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 8:</h4>
+                    <b>A</b><label><input type="radio" name="q27" value="A"></label> Você tende a se sentir atraído por aquilo que dá prazer ao seu físico.<br> <br>
+                    <b>B</b><label><input type="radio" name="q27" value="B"></label> Você tende a se atrair por ideais complexos e ideias profundas.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 9:</h4>
+                    <b>A</b><label><input type="radio" name="q28" value="A"></label> Quando chega em um ambiente com estímulos emocionais (uma festa, por exemplo), você se sente facilmente envolvido, comovido e atraído.<br> <br>
+                    <b>B</b><label><input type="radio" name="q28" value="B"></label> Quando chega em uma festa, você cria uma certa barreira/resistência ou julgamento.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 10:</h4>
+                    <b>A</b><label><input type="radio" name="q29" value="A"></label> Quando combina algo, compreende facilmente quando há uma mudança.<br> <br>
+                    <b>B</b><label><input type="radio" name="q29" value="B"></label> Quando combina algo, não compreende tão fácil quando algo muda e demora a aceitar.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 11:</h4>
+                    <b>A</b><label><input type="radio" name="q30" value="A"></label> Quando opinam de forma oposta à sua, automaticamente, sem sofrimento, você entende que é natural da vida e tudo continua normal.<br> <br>
+                    <b>B</b><label><input type="radio" name="q30" value="B"></label> Quando opinam de forma oposta à sua, seu interior se perturba, é difícil aceitar e, dependendo, você não consegue agir normalmente com a pessoa.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 12:</h4>
+                    <b>A</b><label><input type="radio" name="q31" value="A"></label> A vida muda, é assim mesmo e está tudo bem.<br> <br>
+                    <b>B</b><label><input type="radio" name="q31" value="B"></label> A vida muda e isso me faz sentir que não tenho controle.<br>
+                </div>
+                <br>
+                <div id="container">
+                    <h4>Questão 13:</h4>
+                    <b>A</b><label><input type="radio" name="q32" value="A"></label> A paz interior é tão importante para mim que prefiro me abster de contendas.<br> <br>
+                    <b>B</b><label><input type="radio" name="q32" value="B"></label> Minha paz interior não pode sobrepor a verdade. Se tenho paz com as pessoas por meio da negação do que é certo para mim, não tenho paz.<br>
+                </div>
+                <br>                
+                    <!-- ...continue para as 13 questões... -->
+                </div>
+            <button id="submit-part2">Enviar Respostas da Segunda Parte</button>
+        </div>
+ 
+        <div id="result" class="hidden">
+            <h2>Resultado Final</h2>
+            <div id="temperament-details"></div>
+            <button id="finish-test">Finalizar Teste</button>
+        </div>
+ 
+    </div>
+    <p id="insta">@TEMPERAMENTANDO.OFICIAL</p>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js">
+
+    </script>
+    <script>
+        document.getElementById("submit-part2").addEventListener("click", () => {
+        
+            let params = {
+                particleCount: 500, // Quantidade de confetes
+                spread: 90, // O quanto eles se espalham
+                startVelocity: 70, // Velocidade inicial
+                origin: { x: 0, y: 0.5 }, // Posição inicial na tela
+                angle: 45 // Ângulo em que os confetes serão lançados
+            };
+        
+            // Joga confetes da esquerda pra direita
+            confetti(params);
+        
+            // Joga confetes da direita para a esquerda
+            params.origin.x = 1;
+            params.angle = 135;
+            confetti(params);
+        });
+        </script>
+</body>
+</html>
+ 
